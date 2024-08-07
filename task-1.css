@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+}
+
+.phone-background {
+  height: 800px;
+  width: 390px;
+  background-image: linear-gradient(#010101, #010101, #645502, #010101);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  gap: 15px;
+}
+
+.phone-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.phone-header-time {
+  color: #fff;
+}
+
+.header-icons {
+  color: #fff;
+}
+.phone-apps-icons-screen {
+  height: 550px;
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+}
+.apps-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+.icon-images {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* icons text css  */
+.icon-text {
+  color: #fff;
+  font-size: 9px;
+  letter-spacing: 0.8;
+  text-align: center;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+/* search box css start here */
+.search-icon {
+  margin-top: 30px;
+  height: 22px;
+  width: 60px;
+  background-color: #46381b;
+  color: #bdbcbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 5px;
+  font-weight: normal;
+}
+
+.search-icon {
+  font-size: 10px;
+}
+/* serch box css end here */
+
+/* last 4 icons css start here */
+.phone-last-icons {
+  width: 370px;
+  height: 70px;
+  background-color: #141413;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone-icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  background-color: #2a2f32;
+  border-radius: 15px;
+}
+
+/* last 4 icons css end here */
